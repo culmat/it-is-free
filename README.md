@@ -4,7 +4,7 @@ Run using the [Jetty Maven plugin](http://www.eclipse.org/jetty/documentation/9.
 ```
 mvn jetty:run
 ```
-You can then direct your browser to `http://localhost:8080/websock.jsp`
+You can then direct your browser to [http://localhost:8080/hub.jsp]([http://localhost:8080/hub.jsp])
 
 
 # App Engine Deploy
@@ -21,6 +21,9 @@ You can then direct your browser to `http://localhost:8080/websock.jsp`
   ```
 
 ## Deploy
+
+in `pom.xml` change `<deploy.projectId>` and 
+
 
 ```
 mvn clean package appengine:deploy
